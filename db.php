@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	include("configures.php");
 
 	class DataBase{
@@ -76,6 +76,7 @@
 				}
 			mysql_query("insert into {$table}({$fields_str}) values({$values})")||print(mysql_error());
 			echo "Запись добавлена";
+			//echo var_dump($fields);
 		}
 		
 		public function get_data($_table){
