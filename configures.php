@@ -1,1 +1,1 @@
-﻿<?php	//gttst	class Configures{		public static $db_host = "localhost";		public static $db_user = "root";		public static $db_pass = "vertrigo";		public static $db_name = "test";			}?>
+﻿<?php	//t1	//gttst	class Configures{		public static $db_host = "localhost";		public static $db_user = "root";		public static $db_pass = "vertrigo";		public static $db_name = "test";			}?>
